@@ -1,0 +1,86 @@
+Crypto Intelligence Platform
+System Health
+  components: 
+    api: 
+      latency: 0.1
+      status: operational
+    database: 
+      connections: 5
+      status: operational
+    services: 
+      active_count: 3
+      status: operational
+  status: healthy
+  timestamp: 2025-01-02T19:45:54.959710
+Risk Parameters
+  global_parameters: 
+    max_daily_trades: 10
+    max_drawdown: 0.15
+    minimum_liquidity: 50000
+  risk_levels: 
+    high: 
+      max_position_size: 25
+      stop_loss: 0.1
+      take_profit: 0.3
+    low: 
+      max_position_size: 100
+      stop_loss: 0.02
+      take_profit: 0.05
+    medium: 
+      max_position_size: 50
+      stop_loss: 0.05
+      take_profit: 0.15
+  timestamp: 2025-01-02T19:45:54.960275
+Active Trades
+  count: 0
+  trades: 
+Market Sentiment
+  confidence: 0
+  mood: neutral
+  sources: 
+  status: insufficient_data
+Market Analysis (ETH)
+  analysis: 
+    action: Avoid making any investment decisions until more data becomes available.
+    confidence: 0.5
+    key_factors: 
+      Zero price indicates potential data inaccuracies or halted trading.
+      Zero market cap suggests the absence of active trading or value estimation.
+      Zero liquidity implies no immediate exchangeability of assets.
+      Zero volume over the past 24 hours suggests a complete lack of transactions.
+      Holder count being zero may indicate an issue with data reporting.
+    risk_level: 0.9
+    summary: The market conditions indicate that the ETH chain is currently experiencing a period of inactivity with no trading metrics available. This suggests a possible temporary suspension of trading activities or data reporting issues.
+    trend: The market conditions indicate that the ETH chain is currently experiencing a period of inactivity with no trading metrics available. This suggests a possible temporary suspension of trading activities or data reporting issues.
+  metrics: 
+    market_cap: 0
+    price: 0
+    volume_24h: 0
+  status: success
+  timestamp: 2025-01-02T19:46:22.304090
+Market Analysis (SOL)
+  analysis: 
+    action: Avoid any investment or trading actions until accurate data is available and market status changes.
+    confidence: 0.2
+    key_factors: 
+      Zero price indicates no trading or updated market information.
+      Market cap at zero suggests project might be delisted or facing severe issues.
+      Liquidity at zero indicates no buy/sell orders making the market illiquid.
+      24h volume at zero suggests no trading activity over the past day.
+      Holder count at zero is unusual and may indicate data inaccuracies or severe issues with the blockchain.
+    risk_level: 1
+    summary: The Solana market conditions indicate a complete lack of activity as all critical metrics are at zero. This suggests either a serious data error or a complete halt in trading and operations.
+    trend: The Solana market conditions indicate a complete lack of activity as all critical metrics are at zero. This suggests either a serious data error or a complete halt in trading and operations.
+  metrics: 
+    market_cap: 0
+    price: 0
+    volume_24h: 0
+  status: success
+  timestamp: 2025-01-02T19:46:32.530202
+LLM Service Status
+  services: 
+    cohere: operational
+    huggingface: operational
+    openai: operational
+  status: operational
+  timestamp: 2025-01-02T19:45:57.934303

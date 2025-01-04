@@ -1,0 +1,48 @@
+The goal is to build an automated trading bot for Solana memecoins that identifies profitable opportunities, evaluates token safety, and executes trades based on predefined criteria. The bot should integrate data from social media and blockchain analytics tools, leveraging AI for decision-making. This bot aims to reduce the time spent manually researching memecoins while optimizing profits in the high-risk/high-reward crypto trading space.
+
+Requirements
+Twitter Scraping Module (can use APYify solutions to make easier)
+
+Build a script to scan Twitter for promising memecoin tickers.
+Create or integrate a feature to manage a curated list of crypto influencers for data collection.
+
+Historical Data Integration
+Fetch historical data of successful Solana memecoins using the GMGN API.
+Store and organize this data in a local database for easy access.
+
+New Token Monitoring
+Track new token launches on PumpFun and GMGN platforms.
+Filter out low-quality tokens based on specified criteria.
+
+AI-Powered Prediction
+Integrate advanced AI models to evaluate token potential based on historical data and social media hype.
+Allow the system to compare metrics and assign a success probability score.
+
+Token Safety Verification
+Use SolanaSniffer API to validate token safety scores.
+Notify users of unsafe tokens (e.g., score below 80, unlocked liquidity, or enabled minting).
+
+Automated Buy/Sell Modules
+Implement modules for executing buy and sell operations for Solana tokens.
+Configure parameters such as:
+Priority fees
+Buy amounts (e.g., 1-2 SOL)
+Slippage tolerance (15%-25%)
+Take-profit target (e.g., 10x)
+Moonbag retention (e.g., 15%).
+
+Error Handling and User Guide
+Implement error handling for smooth operation.
+Include a step-by-step guide for setting up and running the bot.
+
+Acceptance Criteria
+Twitter Scraper: Must identify memecoin tickers accurately from influencer posts.
+Data Integration: Must successfully fetch and store data from GMGN API.
+Token Monitoring: Capable of tracking and filtering new token launches based on pre-set criteria.
+AI Analysis: Provides actionable insights with a success probability score for tokens.
+Safety Checks: Notifies users of unsafe tokens with reasons and scores.
+Trading Functionality: Executes trades with predefined parameters and reports the results.
+Error-Free Script: Complete Python script must run without errors and include a setup guide.
+
+See this twitter thread (one of many like it) as simple guideline if necessary:
+https://x.com/Shelpid_WI3M/status/1870585748476538887

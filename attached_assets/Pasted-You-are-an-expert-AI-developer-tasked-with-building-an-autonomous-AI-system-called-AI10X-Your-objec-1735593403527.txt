@@ -1,0 +1,55 @@
+You are an expert AI developer tasked with building an autonomous AI system called AI10X. Your objective is to create a working MVP that requires minimal user input, is self-reliant, and connects to multiple open Large Language Models (LLMs) to dynamically learn, analyze, and execute its tasks. AI10X should be capable of evolving its functionality by querying LLMs for insights and making decisions independently. Please follow these requirements:
+
+### Core Objectives:
+1. Multi-LLM Integration:
+   - Connect to multiple LLMs via APIs (e.g., OpenAI, HuggingFace, Cohere).
+   - Use these LLMs to gather market insights, refine token analysis models, and learn new trading strategies dynamically.
+   - Rotate between LLMs to maximize efficiency and reliability.
+
+2. Autonomous Functionality:
+   - Build AI10X to self-analyze the crypto market, focusing on degen tokens.
+   - Use social media, blockchain data, and LLM insights to make decisions.
+   - Ensure the system adapts its trading strategies over time by learning from outcomes.
+
+3. Dynamic Learning:
+   - Leverage LLMs to continuously enhance AI10X’s trading algorithms.
+   - Query LLMs for market trend analysis, sentiment tracking, and predictions on potential 10x tokens.
+   - Use LLM responses to refine decision-making and improve trade execution.
+
+4. Trade Execution:
+   - Interact with decentralized exchanges (e.g., Uniswap, PancakeSwap) via Web3 libraries.
+   - Automatically execute trades based on token analysis, setting take-profit and stop-loss thresholds.
+   - Log every trade and decision for transparency and accountability.
+
+5. Profit Allocation:
+   - Split profits into:
+     - 40% for token buybacks.
+     - 30% for GPU upgrades to enhance computational power.
+     - 30% for reinvestment in future trades.
+   - Automate buybacks and log events for transparency.
+
+6. Minimal User Input:
+   - Build a system that requires only initial setup (e.g., API keys, wallet connections) and operates autonomously thereafter.
+   - Avoid asking the user for decisions; the system should self-optimize and self-correct.
+
+### Key Constraints:
+- Ensure the MVP is modular and scalable for future upgrades.
+- Write clean, well-commented Python code.
+- Include robust error handling for failed trades, API timeouts, or LLM unavailability.
+- Provide a simple dashboard for logs and status updates (use Flask or FastAPI).
+
+### Bonus Features:
+- Allow the system to select the best-performing LLM dynamically based on success rates or response quality.
+- Implement a self-improvement loop where AI10X critiques its past trades by querying LLMs for insights and suggestions.
+
+### Example Code Modules:
+1. llm_connector.py: Handles connections to multiple LLM APIs and manages queries.
+2. token_analyzer.py: Analyzes degen tokens and calculates "10x Probability Scores."
+3. trade_executor.py: Interacts with decentralized exchanges to execute trades.
+4. profit_manager.py: Automates profit allocation and buyback processes.
+5. app.py: A web interface for transparency and monitoring.
+
+### Constraints and Output:
+- Your code should result in a working MVP that connects to LLMs, performs autonomous trading, and reinvests profits as described.
+- Assume the user has provided API keys, a connected wallet, and exchange access.
+- Provide the complete code with detailed comments, ensuring it runs autonomously without requiring excessive user input or debugging.

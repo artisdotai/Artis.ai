@@ -1,0 +1,109 @@
+AI10X Trading Bot
+Performance Overview
+Technical Indicators
+RSI & Stochastic
+RSI Value: -
+
+RSI Signal: -
+
+Stoch K: -
+
+Stoch D: -
+
+Stoch Signal: -
+
+MACD
+Value: -
+
+Signal: -
+
+Interpretation: -
+
+Trend Indicators
+ADX: -
+
+DI+: -
+
+DI-: -
+
+Trend Signal: -
+
+Moving Averages
+Short EMA: -
+
+Long EMA: -
+
+EMA Signal: -
+
+Telegram Sentiment Analysis
+Spydefi Bot Analysis
+Rating: -
+
+Message Volume: -
+
+Sentiment Score: -
+
+Message Distribution
+Positive Messages: -
+
+Negative Messages: -
+
+Neutral Messages: -
+
+Top Keywords
+-
+
+Early Token Launches
+Token Address	Chain	Launch Time	Liquidity	Volume (24h)	Holder Count	Price	Potential Score	Risk Level
+SoLTest111111111111111111111111111111111111	SOLANA	12/30/2024, 8:06:57 PM	$75,000	$15,000	150	$0.00001000	5.30	6.76
+SoLTest222222222222222222222222222222222222	SOLANA	12/30/2024, 5:06:57 PM	$120,000	$35,000	280	$0.00005000	8.42	6.08
+SoLTest333333333333333333333333333333333333	SOLANA	12/30/2024, 2:06:57 PM	$95,000	$28,000	220	$0.00003000	7.15	6.34
+Recent Trades
+Token	Chain	Type	Price	Amount	Strategy	Entry Score	Risk Level	Time
+TEST10	ETH	BUY	$0.980000	0.0445	12/30/2024, 7:44:51 PM
+TEST9	BSC	BUY	$1.100000	0.0420	12/30/2024, 7:44:51 PM
+TEST8	SOLANA	BUY	$0.950000	0.0500	12/30/2024, 7:44:51 PM
+TEST7	SOLANA	BUY	$1.200000	0.0450	12/30/2024, 7:44:51 PM
+TEST6	SOLANA	BUY	$1.000000	0.0375	12/30/2024, 7:44:51 PM
+TEST5	AVAX	BUY	$1.000000	0.0375	12/30/2024, 7:44:51 PM
+TEST4	ARB	BUY	$1.000000	0.0435	12/30/2024, 7:44:51 PM
+TEST3	POLYGON	BUY	$1.000000	0.0393	12/30/2024, 7:44:51 PM
+TEST2	ETH	BUY	$1.000000	0.0408	12/30/2024, 7:44:51 PM
+TEST1	BSC	BUY	$1.000000	0.0400	12/30/2024, 7:44:51 PM
+Strategy Performance
+Active Strategies
+Strategy Metrics
+Strategy	Win Rate	Total Profit	Risk Level	Performance	Risk/Reward
+Strategy Recommendations
+Risk Management
+Portfolio Risk Metrics
+Total Open Positions: 20
+
+Portfolio Allocation:
+
+BSC: 20.1%
+ETH: 19.6%
+POLYGON: 9.1%
+ARB: 10.1%
+AVAX: 8.7%
+SOLANA: 32.3%
+Risk Parameters
+Max Position Size: 10.0%
+
+Stop Loss %: 5.0%
+
+Take Profit %: 15.0%
+
+Chain-Specific Metrics
+Chain	Risk Score	Min Liquidity
+ARB	1.20	$60,000
+AVAX	1.00	$40,000
+BSC	1.50	$75,000
+ETH	2.00	$100,000
+POLYGON	1.20	$50,000
+SOLANA	1.00	$45,000
+Bot Statistics
+Total Profit
+$0.00
+Buyback Allocated
+$0.00

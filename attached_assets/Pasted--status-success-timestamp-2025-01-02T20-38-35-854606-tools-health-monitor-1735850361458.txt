@@ -1,0 +1,127 @@
+  "status": "success",
+  "timestamp": "2025-01-02T20:38:35.854606",
+  "tools": {
+    "health_monitoring": {
+      "description": "Monitors system health and status",
+      "error": null,
+      "last_check": "2025-01-02T20:38:12.339860",
+      "name": "health_monitoring",
+      "parameters": [
+        "component",
+        "metrics"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "error_count": 0,
+          "last_error": null,
+          "status": "closed"
+        },
+        "last_check": "2025-01-02T20:38:12.339860",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "llm_analysis": {
+      "description": "Performs LLM-based analysis",
+      "error": null,
+      "last_check": "2025-01-02T20:38:12.339818",
+      "name": "llm_analysis",
+      "parameters": [
+        "content",
+        "analysis_type"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "error_count": 0,
+          "last_error": null,
+          "status": "closed"
+        },
+        "last_check": "2025-01-02T20:38:12.339818",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "market_analysis": {
+      "description": "Analyzes market conditions and trends",
+      "error": null,
+      "last_check": "2025-01-02T20:38:12.339666",
+      "name": "market_analysis",
+      "parameters": [
+        "chain",
+        "metrics"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "error_count": 0,
+          "last_error": null,
+          "status": "closed"
+        },
+        "last_check": "2025-01-02T20:38:12.339666",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "risk_management": {
+      "description": "Manages trading risk parameters",
+      "error": null,
+      "last_check": "2025-01-02T20:38:12.339775",
+      "name": "risk_management",
+      "parameters": [
+        "risk_level",
+        "parameters"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "error_count": 0,
+          "last_error": null,
+          "status": "closed"
+        },
+        "last_check": "2025-01-02T20:38:12.339775",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "sentiment_analysis": {
+      "description": "Analyzes market sentiment from social data",
+      "error": null,
+      "last_check": "2025-01-02T20:38:12.339731",
+      "name": "sentiment_analysis",
+      "parameters": [
+        "source",
+        "content"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "error_count": 0,
+          "last_error": null,
+          "status": "closed"
+        },
+        "last_check": "2025-01-02T20:38:12.339731",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "trading_execution": {
+      "description": "Executes trading operations",
+      "error": null,
+      "last_check": "2025-01-02T20:38:12.339899",
+      "name": "trading_execution",
+      "parameters": [
+        "chain",
+        "parameters"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "error_count": 0,
+          "last_error": null,
+          "status": "closed"
+        },
+        "last_check": "2025-01-02T20:38:12.339899",
+        "message": "All validations passed",
+        "status": "operational"

@@ -1,0 +1,304 @@
+{
+  "operational_count": 14,
+  "status": "success",
+  "tools": {
+    "event_impact": {
+      "description": "Analyzes market events impact",
+      "error": null,
+      "last_check": "2025-01-02T22:28:39.210456",
+      "name": "event_impact",
+      "parameters": [
+        "event_data",
+        "impact_metrics"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "error_count": 0,
+          "last_error": null,
+          "status": "closed"
+        },
+        "last_check": "2025-01-02T22:28:39.210456",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "gmgn_integration": {
+      "description": "Integrates with GMGN API for historical data",
+      "error": null,
+      "last_check": "2025-01-02T22:28:39.210241",
+      "name": "gmgn_integration",
+      "parameters": [
+        "token_address",
+        "time_range",
+        "metrics"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "error_count": 0,
+          "last_error": null,
+          "status": "closed"
+        },
+        "last_check": "2025-01-02T22:28:39.210241",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "health_monitoring": {
+      "description": "Monitors system health and status",
+      "error": null,
+      "last_check": "2025-01-02T22:28:39.210126",
+      "name": "health_monitoring",
+      "parameters": [
+        "component",
+        "metrics"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "error_count": 0,
+          "last_error": null,
+          "status": "closed"
+        },
+        "last_check": "2025-01-02T22:28:39.210126",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "historical_analysis": {
+      "description": "Analyzes historical trading performance",
+      "error": null,
+      "last_check": "2025-01-02T22:28:39.210418",
+      "name": "historical_analysis",
+      "parameters": [
+        "token_address",
+        "time_range",
+        "metrics"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "error_count": 0,
+          "last_error": null,
+          "status": "closed"
+        },
+        "last_check": "2025-01-02T22:28:39.210418",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "llm_analysis": {
+      "description": "Performs LLM-based analysis",
+      "error": null,
+      "last_check": "2025-01-02T22:28:39.210071",
+      "name": "llm_analysis",
+      "parameters": [
+        "content",
+        "analysis_type"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "error_count": 0,
+          "last_error": null,
+          "status": "closed"
+        },
+        "last_check": "2025-01-02T22:28:39.210071",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "market_analysis": {
+      "description": "Analyzes market conditions and trends",
+      "error": null,
+      "last_check": "2025-01-02T22:28:39.209937",
+      "name": "market_analysis",
+      "parameters": [
+        "chain",
+        "metrics"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "error_count": 0,
+          "last_error": null,
+          "status": "closed"
+        },
+        "last_check": "2025-01-02T22:28:39.209937",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "pattern_recognition": {
+      "description": "Identifies trading patterns and signals",
+      "error": null,
+      "last_check": "2025-01-02T22:28:39.210356",
+      "name": "pattern_recognition",
+      "parameters": [
+        "token_data",
+        "pattern_types"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "error_count": 0,
+          "last_error": null,
+          "status": "closed"
+        },
+        "last_check": "2025-01-02T22:28:39.210356",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "portfolio_optimization": {
+      "description": "Optimizes trading portfolio allocation",
+      "error": null,
+      "last_check": "2025-01-02T22:28:39.210385",
+      "name": "portfolio_optimization",
+      "parameters": [
+        "positions",
+        "risk_parameters"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "error_count": 0,
+          "last_error": null,
+          "status": "closed"
+        },
+        "last_check": "2025-01-02T22:28:39.210385",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "pumpfun_integration": {
+      "description": "Monitors new token launches via PumpFun",
+      "error": null,
+      "last_check": "2025-01-02T22:28:39.210288",
+      "name": "pumpfun_integration",
+      "parameters": [
+        "chain",
+        "filters",
+        "metrics"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "error_count": 0,
+          "last_error": null,
+          "status": "closed"
+        },
+        "last_check": "2025-01-02T22:28:39.210288",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "risk_management": {
+      "description": "Manages trading risk parameters",
+      "error": null,
+      "last_check": "2025-01-02T22:28:39.210029",
+      "name": "risk_management",
+      "parameters": [
+        "risk_level",
+        "parameters"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "error_count": 0,
+          "last_error": null,
+          "status": "closed"
+        },
+        "last_check": "2025-01-02T22:28:39.210029",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "sentiment_analysis": {
+      "description": "Analyzes market sentiment from social data",
+      "error": null,
+      "last_check": "2025-01-02T22:28:39.209988",
+      "name": "sentiment_analysis",
+      "parameters": [
+        "source",
+        "content"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "error_count": 0,
+          "last_error": null,
+          "status": "closed"
+        },
+        "last_check": "2025-01-02T22:28:39.209988",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "solana_sniffer": {
+      "description": "Verifies token safety using SolanaSniffer",
+      "error": null,
+      "last_check": "2025-01-02T22:28:39.210322",
+      "name": "solana_sniffer",
+      "parameters": [
+        "token_address",
+        "safety_metrics"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "error_count": 0,
+          "last_error": null,
+          "status": "closed"
+        },
+        "last_check": "2025-01-02T22:28:39.210322",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "trading_execution": {
+      "description": "Executes trading operations",
+      "error": null,
+      "last_check": "2025-01-02T22:28:39.210166",
+      "name": "trading_execution",
+      "parameters": [
+        "chain",
+        "parameters"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "error_count": 0,
+          "last_error": null,
+          "status": "closed"
+        },
+        "last_check": "2025-01-02T22:28:39.210166",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "twitter_analysis": {
+      "description": "Analyzes Twitter data for crypto signals",
+      "error": null,
+      "last_check": "2025-01-02T22:28:39.210202",
+      "name": "twitter_analysis",
+      "parameters": [
+        "query",
+        "time_range",
+        "metrics"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "error_count": 0,
+          "last_error": null,
+          "status": "closed"
+        },
+        "last_check": "2025-01-02T22:28:39.210202",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    }
+  },
+  "total_count": 14

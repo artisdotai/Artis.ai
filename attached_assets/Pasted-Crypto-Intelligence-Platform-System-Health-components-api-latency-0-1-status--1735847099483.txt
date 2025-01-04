@@ -1,0 +1,56 @@
+Crypto Intelligence Platform
+System Health
+  components: 
+    api: 
+      latency: 0.1
+      status: operational
+    database: 
+      connections: 5
+      status: operational
+    services: 
+      active_count: 3
+      status: operational
+  status: healthy
+  timestamp: 2025-01-02T19:44:21.139851
+Risk Parameters
+  global_parameters: 
+    max_daily_trades: 10
+    max_drawdown: 0.15
+    minimum_liquidity: 50000
+  risk_levels: 
+    high: 
+      max_position_size: 25
+      stop_loss: 0.1
+      take_profit: 0.3
+    low: 
+      max_position_size: 100
+      stop_loss: 0.02
+      take_profit: 0.05
+    medium: 
+      max_position_size: 50
+      stop_loss: 0.05
+      take_profit: 0.15
+  timestamp: 2025-01-02T19:44:21.139097
+Active Trades
+  count: 0
+  trades: 
+Market Sentiment
+  confidence: 0
+  mood: neutral
+  sources: 
+  status: insufficient_data
+Market Analysis (ETH)
+  message: (psycopg2.errors.StringDataRightTruncation) value too long for type character varying(50)\n\nSQL: INSERT INTO token_analysis (token_address chain price market_cap liquidity volume_24h holder_count risk_score sentiment_score technical_rating created_at updated_at) VALUES (%(token_address)s %(chain)s %(price)s %(market_cap)s %(liquidity)s %(volume_24h)s %(holder_count)s %(risk_score)s %(sentiment_score)s %(technical_rating)s CURRENT_TIMESTAMP CURRENT_TIMESTAMP) RETURNING token_analysis.id token_analysis.created_at token_analysis.updated_at\nparameters: 'token_address': None 'chain': 'ETH' 'price': 0 'market_cap': 0 'liquidity': 0 'volume_24h': 0 'holder_count': 0 'risk_score': 1.0 'sentiment_score': 0.1 'technical_rating': 'The Ethereum market conditions indicate that there is no recorded financial activity or fluctuations in its price market capitalization liquidity or trading volume. This suggests a possible halt in tracking system error or market suspension.'\n(Background on this error at: https://sqlalche.me/e/20/9h9h)
+  status: error
+  timestamp: 2025-01-02T19:44:55.957236
+Market Analysis (SOL)
+  message: (psycopg2.errors.StringDataRightTruncation) value too long for type character varying(50)\n\nSQL: INSERT INTO token_analysis (token_address chain price market_cap liquidity volume_24h holder_count risk_score sentiment_score technical_rating created_at updated_at) VALUES (%(token_address)s %(chain)s %(price)s %(market_cap)s %(liquidity)s %(volume_24h)s %(holder_count)s %(risk_score)s %(sentiment_score)s %(technical_rating)s CURRENT_TIMESTAMP CURRENT_TIMESTAMP) RETURNING token_analysis.id token_analysis.created_at token_analysis.updated_at\nparameters: 'token_address': None 'chain': 'SOLANA' 'price': 0 'market_cap': 0 'liquidity': 0 'volume_24h': 0 'holder_count': 0 'risk_score': 1.0 'sentiment_score': 0.2 'technical_rating': \The given SOLANA market conditions indicate extreme stagnation with all key metrics at zero and the status marked as 'inactive'. This suggests a temporary non-operational phase or systemic reporting failure.\\n(Background on this error at: https://sqlalche.me/e/20/9h9h)
+  status: error
+  timestamp: 2025-01-02T19:44:42.976596
+LLM Service Status
+  services: 
+    cohere: operational
+    huggingface: operational
+    openai: operational
+  status: operational
+  timestamp: 2025-01-02T19:44:34.840366

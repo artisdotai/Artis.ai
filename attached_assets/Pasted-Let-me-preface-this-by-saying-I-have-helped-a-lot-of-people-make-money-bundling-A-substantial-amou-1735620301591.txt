@@ -1,0 +1,35 @@
+Let me preface this by saying, I have helped a lot of people make money bundling. A substantial amount of money, and in this market, the game has changed. You can still make money, but it is not the same as it was in May, and that is something you must get over. I have made over 6 figures spamming out launches, as someone with no KOLS or influence. I have never paid $1 in marketing.
+
+Adapt or die.
+
+Module 1: Why Experimental No Delay & What Is Volume
+
+Delta
+
+Before Pump/Bullx/and/Photon introduced Bot detection this game was easy. You could run safe mode and print money. Now on safe mode you will only make .7-2 SOL per project IF YOU ARE LUCKY. On safe mode, most of the time you will just be donating fees to pump.fun. Bots have set up a function that detects txs on the same block as mint, and completely ignores them through the entirety they are on the SOL Blockchain.
+
+So the answer is that we must run the experimental version, especially because we have no KOLs or marketing coming after words. Your volume bot and bumps will do nothing besides maybe make you .3 - 1 SOL and takes forever.
+
+If you are doing this, I know you are experiencing this. Now let me educate you a little bit. On pump over 50% of the activity is from robots. Not much of that activity is from snipers as you would believe. These bots are volume delta bots and momentum bots. Whichever you want to call them.
+
+Volume delta is the amount of sol coming into your project vs the amount going out, and if this is not happening in the first couple seconds of your mint tx. It does not matter at all. They detect your safe mode or dead project and completely avoid it. Lets say you have 16 SOL coming in and 8 going out in the first second of your project your volume delta for the last 2 seconds would be 8. Any bot that has set up 8+ volume delta in 2 seconds would be triggered to buy. If you set a delay these bots know you are trying to scam them.
+
+From testing I’ve found that if your dev buy is over 1.25, you sold the dev, or if your project is just shit. It will die and won’t get any buys, no matter what you do.
+
+In this guide I am going to give you the exact settings you need, the amount of money you need to bundle with, and what exactly you need to think about or create to get your project to explode.
+
+If you follow this guide exactly, I can promise you one thing, you will see a difference in the volume of your projects, and you will immediately see what I am talking about. If you do this correctly and have a great idea, your project can hit Raydium within the first 30 seconds.
+
+Module 2: Why it works and who/what we are
+
+manipulating
+
+When we create a project, if there is no volume nobody will buy, thats why you are using a bundler and volume bot right? but what if, you can generate the volume using minimal volume bot activity. Giving your project real holders, real hype, and a real community to push it. We only need to use the bundler with no delay, and on experimental mode. Most of the time.
+
+That is why it works, because people actually are attracted to your project, they want it to go to ray, and they don’t plan to sell. Now to accomplish this there is multiple ways, but the easiest way is to simply fake realistic hype by manipulating volume delta bots (bots that are triggered to buy after a certain amount of incoming/outgoing volume in x amount of txs and seconds) & Momentum bots, bots that are triggered to buy if you hit x amount of market cap in x amount of seconds.
+
+So if the market is down, that means you have to bundle more than usual, and if the market is up, you have to bundle less. You also have to match the volume delta bot triggers. So if you usually are getting 2-3 snipers taking 1-2 sol each. You need to bundle 16 SOL to achieve a 10+ SOL volume delta.
+
+I’ve found that a 10 - 12 SOL volume delta triggers most bots in the market, and if you optimize your setup. You will match their amount of seconds filter and amount of txs.
+
+Module 3: How To Pick The Right Idea & Find The Meta

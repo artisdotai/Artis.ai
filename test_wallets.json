@@ -1,0 +1,12 @@
+{
+  "eth": {
+    "address": "0xbd07d541B41F6606345e67e8f4d028ce333B45eC",
+    "private_key": "f0070c5524bfefd4aa6283ab5cd35ec0e8c674f99725d5faa861a29965c803b5",
+    "chain": "eth"
+  },
+  "solana": {
+    "address": "6owWhnZuhtyfV5dVy6TBCmHaGqqLLCuQhXnV3ZKwHcRz",
+    "private_key": "GUygYJZznbmKojKfk9k83psPLxtEECjad6ARuVSHP95J",
+    "chain": "solana"
+  }
+}

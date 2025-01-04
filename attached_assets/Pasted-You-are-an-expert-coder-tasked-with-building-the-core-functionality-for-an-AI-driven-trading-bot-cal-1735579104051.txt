@@ -1,0 +1,46 @@
+You are an expert coder tasked with building the core functionality for an AI-driven trading bot called AI10X. The bot will analyze cryptocurrency markets, specifically focusing on degen tokens, execute trades based on high ROI potential, and reinvest profits into its own token buyback system. Please write the code in Python, incorporating the following requirements:
+
+### Core Features:
+1. Token Analysis:
+   - Monitor cryptocurrency prices, trading volume, and liquidity on decentralized exchanges (e.g., Uniswap, PancakeSwap).
+   - Scrape social media platforms (e.g., Twitter) and Telegram groups to analyze sentiment around trending degen tokens.
+   - Calculate a "10x Potential Score" based on:
+     - Liquidity
+     - Recent trading volume
+     - Meme activity and mentions
+     - Whale wallet involvement
+
+2. Trade Execution:
+   - Automatically buy tokens with a high "10x Potential Score."
+   - Set take-profit levels (e.g., 10x target or custom multiplier) and stop-loss thresholds.
+   - Use Web3 libraries (e.g., `web3.py`) to interact with smart contracts for trading.
+
+3. Profit Allocation:
+   - Reinvest a percentage of profits (e.g., 40%) into a predefined wallet for token buybacks.
+   - Use another percentage for further trading capital.
+
+4. Dashboard/Logs:
+   - Display trade history, realized profits, and current token holdings in a user-friendly format (e.g., Flask or FastAPI for the dashboard).
+   - Provide transparency for token buyback events (time, amount, and price).
+
+### Technical Details:
+- Use Python as the programming language.
+- Use Web3 libraries to interact with decentralized exchanges.
+- Integrate APIs like CoinGecko or DexTools for price and token data.
+- For social sentiment analysis, use libraries like Tweepy or scraping tools like BeautifulSoup for Telegram groups.
+- Log all activities into a database (e.g., SQLite or MongoDB).
+- Keep modular code to allow for future scalability and updates.
+
+### Example Code Structure:
+1. A main script to initialize the bot.
+2. A module for token analysis (`token_analysis.py`).
+3. A module for trade execution (`trade_executor.py`).
+4. A module for profit management and buybacks (`profit_manager.py`).
+5. A web interface for logs and dashboards (`app.py`).
+
+### Constraints:
+- Ensure the bot is efficient and runs continuously without manual intervention.
+- Include error handling for failed trades, API downtime, or unexpected token liquidity issues.
+- Make the code modular and scalable.
+
+Please provide the complete code with detailed comments explaining each section. Break the code into modular functions for clarity and reusability.

@@ -1,0 +1,102 @@
+{
+  "status": "success",
+  "timestamp": "2025-01-02T20:06:10.286472",
+  "tools": {
+    "health_monitoring": {
+      "description": "Monitors system health and status",
+      "error": null,
+      "last_check": "2025-01-02T20:06:09.059623",
+      "name": "health_monitoring",
+      "parameters": [
+        "component",
+        "metrics"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "last_check": "2025-01-02T20:06:09.059623",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "llm_analysis": {
+      "description": "Performs LLM-based analysis",
+      "error": null,
+      "last_check": "2025-01-02T20:06:09.059622",
+      "name": "llm_analysis",
+      "parameters": [
+        "content",
+        "analysis_type"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "last_check": "2025-01-02T20:06:09.059622",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "market_analysis": {
+      "description": "Analyzes market conditions and trends",
+      "error": null,
+      "last_check": "2025-01-02T20:06:09.059613",
+      "name": "market_analysis",
+      "parameters": [
+        "chain",
+        "metrics"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "last_check": "2025-01-02T20:06:09.059613",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "risk_management": {
+      "description": "Manages trading risk parameters",
+      "error": null,
+      "last_check": "2025-01-02T20:06:09.059619",
+      "name": "risk_management",
+      "parameters": [
+        "risk_level",
+        "parameters"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "last_check": "2025-01-02T20:06:09.059619",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "sentiment_analysis": {
+      "description": "Analyzes market sentiment from social data",
+      "error": null,
+      "last_check": "2025-01-02T20:06:09.059617",
+      "name": "sentiment_analysis",
+      "parameters": [
+        "source",
+        "content"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "last_check": "2025-01-02T20:06:09.059617",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "trading_execution": {
+      "description": "Executes trading operations",
+      "error": null,
+      "last_check": "2025-01-02T20:06:09.059651",
+      "name": "trading_execution",
+      "parameters": [
+        "chain",
+        "parameters"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "last_check": "2025-01-02T20:06:09.059651",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    }
+  }
+}

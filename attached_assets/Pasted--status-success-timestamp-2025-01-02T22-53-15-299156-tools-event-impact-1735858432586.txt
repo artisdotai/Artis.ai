@@ -1,0 +1,374 @@
+{
+  "status": "success",
+  "timestamp": "2025-01-02T22:53:15.299156",
+  "tools": {
+    "event_impact": {
+      "description": "Analyzes market events impact",
+      "error": null,
+      "last_check": "2025-01-02T22:52:55.474517",
+      "name": "event_impact",
+      "parameters": [
+        "event_data",
+        "impact_metrics"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "current_failures": 0,
+          "current_state": "closed",
+          "failed_requests": 0,
+          "last_failure": null,
+          "last_state_change": "Thu, 02 Jan 2025 22:52:55 GMT",
+          "successful_requests": 0,
+          "total_requests": 0,
+          "uptime_percentage": 100.0
+        },
+        "last_check": "2025-01-02T22:52:55.474517",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "gmgn_integration": {
+      "description": "Integrates with GMGN API for historical data",
+      "error": null,
+      "last_check": "2025-01-02T22:52:55.474319",
+      "name": "gmgn_integration",
+      "parameters": [
+        "token_address",
+        "time_range",
+        "metrics"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "current_failures": 0,
+          "current_state": "closed",
+          "failed_requests": 0,
+          "last_failure": null,
+          "last_state_change": "Thu, 02 Jan 2025 22:52:55 GMT",
+          "successful_requests": 0,
+          "total_requests": 0,
+          "uptime_percentage": 100.0
+        },
+        "last_check": "2025-01-02T22:52:55.474319",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "health_monitoring": {
+      "description": "Monitors system health and status",
+      "error": null,
+      "last_check": "2025-01-02T22:52:55.474217",
+      "name": "health_monitoring",
+      "parameters": [
+        "component",
+        "metrics"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "current_failures": 0,
+          "current_state": "closed",
+          "failed_requests": 0,
+          "last_failure": null,
+          "last_state_change": "Thu, 02 Jan 2025 22:52:55 GMT",
+          "successful_requests": 0,
+          "total_requests": 0,
+          "uptime_percentage": 100.0
+        },
+        "last_check": "2025-01-02T22:52:55.474217",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "historical_analysis": {
+      "description": "Analyzes historical trading performance",
+      "error": null,
+      "last_check": "2025-01-02T22:52:55.474482",
+      "name": "historical_analysis",
+      "parameters": [
+        "token_address",
+        "time_range",
+        "metrics"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "current_failures": 0,
+          "current_state": "closed",
+          "failed_requests": 0,
+          "last_failure": null,
+          "last_state_change": "Thu, 02 Jan 2025 22:52:55 GMT",
+          "successful_requests": 0,
+          "total_requests": 0,
+          "uptime_percentage": 100.0
+        },
+        "last_check": "2025-01-02T22:52:55.474482",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "llm_analysis": {
+      "description": "Performs LLM-based analysis",
+      "error": null,
+      "last_check": "2025-01-02T22:52:55.474185",
+      "name": "llm_analysis",
+      "parameters": [
+        "content",
+        "analysis_type"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "current_failures": 0,
+          "current_state": "closed",
+          "failed_requests": 0,
+          "last_failure": null,
+          "last_state_change": "Thu, 02 Jan 2025 22:52:55 GMT",
+          "successful_requests": 0,
+          "total_requests": 0,
+          "uptime_percentage": 100.0
+        },
+        "last_check": "2025-01-02T22:52:55.474185",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "market_analysis": {
+      "description": "Analyzes market conditions and trends",
+      "error": null,
+      "last_check": "2025-01-02T22:52:55.474059",
+      "name": "market_analysis",
+      "parameters": [
+        "chain",
+        "metrics"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "current_failures": 0,
+          "current_state": "closed",
+          "failed_requests": 0,
+          "last_failure": null,
+          "last_state_change": "Thu, 02 Jan 2025 22:52:55 GMT",
+          "successful_requests": 0,
+          "total_requests": 0,
+          "uptime_percentage": 100.0
+        },
+        "last_check": "2025-01-02T22:52:55.474059",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "pattern_recognition": {
+      "description": "Identifies trading patterns and signals",
+      "error": null,
+      "last_check": "2025-01-02T22:52:55.474421",
+      "name": "pattern_recognition",
+      "parameters": [
+        "token_data",
+        "pattern_types"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "current_failures": 0,
+          "current_state": "closed",
+          "failed_requests": 0,
+          "last_failure": null,
+          "last_state_change": "Thu, 02 Jan 2025 22:52:55 GMT",
+          "successful_requests": 0,
+          "total_requests": 0,
+          "uptime_percentage": 100.0
+        },
+        "last_check": "2025-01-02T22:52:55.474421",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "portfolio_optimization": {
+      "description": "Optimizes trading portfolio allocation",
+      "error": null,
+      "last_check": "2025-01-02T22:52:55.474453",
+      "name": "portfolio_optimization",
+      "parameters": [
+        "positions",
+        "risk_parameters"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "current_failures": 0,
+          "current_state": "closed",
+          "failed_requests": 0,
+          "last_failure": null,
+          "last_state_change": "Thu, 02 Jan 2025 22:52:55 GMT",
+          "successful_requests": 0,
+          "total_requests": 0,
+          "uptime_percentage": 100.0
+        },
+        "last_check": "2025-01-02T22:52:55.474453",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "pumpfun_integration": {
+      "description": "Monitors new token launches via PumpFun",
+      "error": null,
+      "last_check": "2025-01-02T22:52:55.474351",
+      "name": "pumpfun_integration",
+      "parameters": [
+        "chain",
+        "filters",
+        "metrics"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "current_failures": 0,
+          "current_state": "closed",
+          "failed_requests": 0,
+          "last_failure": null,
+          "last_state_change": "Thu, 02 Jan 2025 22:52:55 GMT",
+          "successful_requests": 0,
+          "total_requests": 0,
+          "uptime_percentage": 100.0
+        },
+        "last_check": "2025-01-02T22:52:55.474351",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "risk_management": {
+      "description": "Manages trading risk parameters",
+      "error": null,
+      "last_check": "2025-01-02T22:52:55.474150",
+      "name": "risk_management",
+      "parameters": [
+        "risk_level",
+        "parameters"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "current_failures": 0,
+          "current_state": "closed",
+          "failed_requests": 0,
+          "last_failure": null,
+          "last_state_change": "Thu, 02 Jan 2025 22:52:55 GMT",
+          "successful_requests": 0,
+          "total_requests": 0,
+          "uptime_percentage": 100.0
+        },
+        "last_check": "2025-01-02T22:52:55.474150",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "sentiment_analysis": {
+      "description": "Analyzes market sentiment from social data",
+      "error": null,
+      "last_check": "2025-01-02T22:52:55.474116",
+      "name": "sentiment_analysis",
+      "parameters": [
+        "source",
+        "content"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "current_failures": 0,
+          "current_state": "closed",
+          "failed_requests": 0,
+          "last_failure": null,
+          "last_state_change": "Thu, 02 Jan 2025 22:52:55 GMT",
+          "successful_requests": 0,
+          "total_requests": 0,
+          "uptime_percentage": 100.0
+        },
+        "last_check": "2025-01-02T22:52:55.474116",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "solana_sniffer": {
+      "description": "Verifies token safety using SolanaSniffer",
+      "error": null,
+      "last_check": "2025-01-02T22:52:55.474388",
+      "name": "solana_sniffer",
+      "parameters": [
+        "token_address",
+        "safety_metrics"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "current_failures": 0,
+          "current_state": "closed",
+          "failed_requests": 0,
+          "last_failure": null,
+          "last_state_change": "Thu, 02 Jan 2025 22:52:55 GMT",
+          "successful_requests": 0,
+          "total_requests": 0,
+          "uptime_percentage": 100.0
+        },
+        "last_check": "2025-01-02T22:52:55.474388",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "trading_execution": {
+      "description": "Executes trading operations",
+      "error": null,
+      "last_check": "2025-01-02T22:52:55.474247",
+      "name": "trading_execution",
+      "parameters": [
+        "chain",
+        "parameters"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "current_failures": 0,
+          "current_state": "closed",
+          "failed_requests": 0,
+          "last_failure": null,
+          "last_state_change": "Thu, 02 Jan 2025 22:52:55 GMT",
+          "successful_requests": 0,
+          "total_requests": 0,
+          "uptime_percentage": 100.0
+        },
+        "last_check": "2025-01-02T22:52:55.474247",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    },
+    "twitter_analysis": {
+      "description": "Analyzes Twitter data for crypto signals",
+      "error": null,
+      "last_check": "2025-01-02T22:52:55.474279",
+      "name": "twitter_analysis",
+      "parameters": [
+        "query",
+        "time_range",
+        "metrics"
+      ],
+      "status": "operational",
+      "validation_details": {
+        "circuit_breaker": {
+          "current_failures": 0,
+          "current_state": "closed",
+          "failed_requests": 0,
+          "last_failure": null,
+          "last_state_change": "Thu, 02 Jan 2025 22:52:55 GMT",
+          "successful_requests": 0,
+          "total_requests": 0,
+          "uptime_percentage": 100.0
+        },
+        "last_check": "2025-01-02T22:52:55.474279",
+        "message": "All validations passed",
+        "status": "operational"
+      }
+    }
+  }
+}
