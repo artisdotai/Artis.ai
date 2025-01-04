@@ -1,3 +1,5 @@
+![telegram-cloud-photo-size-2-5458579657562648351-y](https://github.com/user-attachments/assets/9db38252-668b-4059-ae11-e389d69fa8c4)
+
 Artis.ai: The AI-Powered Trading Bot on Solana.
 
 Artis.ai is the cutting-edge trading assistant designed to adapt to your unique trading style and help you uncover the next big crypto opportunities. Combining advanced AI algorithms, real-time blockchain data, and smart social sentiment tracking, Artis.ai is your go-to solution for staying ahead in the fast-moving world of cryptocurrency.
