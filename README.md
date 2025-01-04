@@ -55,9 +55,9 @@ Artis.ai is currently in beta! If you want to contribute or explore its function
 	3.	Join the community to discuss potential improvements and share your insights!
 
 🔗 Links
-	•	Website: artis.ai
-	•	Twitter: @artis_ai_bot
-	•	Telegram: Artis.ai Community
-	•	Pump.Fun Token Address: 0xYourTokenAddressHere
+	•	Website: https://artis.institute/
+	•	Twitter: https://x.com/artisaisolana
+	•	Telegram: https://t.me/artisaisol
+	•	Token Address: TBA
 
 Take your trading game to the next level with Artis.ai! Let’s build the future of crypto trading together. ✨
